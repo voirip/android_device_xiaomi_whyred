@@ -5,9 +5,11 @@
 #
 
 # Inherit from bouquet-common
-include device/xiaomi/bouquet-common/BoardConfigCommon.mk
+include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/whyred
+
+BUILD_BROKEN_DUP_RULES := true
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160

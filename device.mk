@@ -5,7 +5,7 @@
 #
 
 # Inherit from bouquet-common
-$(call inherit-product, device/xiaomi/bouquet-common/bouquet.mk)
+$(call inherit-product, device/xiaomi/sdm660-common/sdm660.mk)
 
 DEVICE_PATH := device/xiaomi/whyred
 
