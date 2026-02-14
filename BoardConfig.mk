@@ -21,15 +21,8 @@ TARGET_SCREEN_DENSITY := 440
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/whyred-perf_defconfig
 
-# Creates metadata partition mount point under root for
-# the devices with metadata parition
-BOARD_USES_METADATA_PARTITION := true
-
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
-BOARD_SUPER_PARTITION_SYSTEM_DEVICE_SIZE := 3221225472
-BOARD_SUPER_PARTITION_VENDOR_DEVICE_SIZE := 2147483648
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
