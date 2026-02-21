@@ -60,3 +60,5 @@ $(call inherit-product, vendor/xiaomi/whyred/whyred-vendor.mk)
 PRODUCT_SOONG_NAMESPACES += vendor/xiaomi/sdm660-common
 
 PRODUCT_SOONG_NAMESPACES += vendor/xiaomi/whyred
+
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/wlan
