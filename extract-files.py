@@ -17,6 +17,7 @@ namespace_imports = [
     'device/xiaomi/sdm660-common',
     'hardware/qcom-caf/msm8998',
     'hardware/xiaomi',
+    'vendor/xiaomi/sdm660-common',
 ]
 
 
