@@ -26,3 +26,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_VENDOR_PRODUCT_NAME := whyred
 
 BUILD_FINGERPRINT := xiaomi/whyred/whyred:9/PKQ1.180904.001/V12.0.3.0.PEICNXM:user/release-keys
+PRODUCT_APEX_SYSTEM_SERVER_JARS += com.android.crashrecovery:service-crashrecovery
